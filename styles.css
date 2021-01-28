@@ -3,6 +3,20 @@ body {
   color: #ededed;
 }
 
+.whitespace {
+  width: 100%;
+  height: 70px;
+}
+
+.navbar-img {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.nav-margin {
+  margin-right: 30px;
+}
+
 .home-title {
   font-family: 'Poiret One', cursive;
   font-size: 100px;
@@ -30,4 +44,39 @@ body {
 
 .wire-img {
   width: 400px;
+}
+
+.content-box {
+  width: 325px;
+  height: 300px;
+  background-color: #525252;
+}
+
+.content-header {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 40px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: #428af5
+}
+
+.content-link-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  transition: 0.5s;
+  font-size: 25px;
+  padding-left: 20px;
+  color: white;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+.content-link-button:hover {
+  background-color: #78acff;
+  color: white;
+  font-style: normal;
+  text-decoration: none;
 }
