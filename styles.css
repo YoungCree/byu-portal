@@ -1,0 +1,38 @@
+body {
+  background-color: #292929;
+  color: #ededed;
+}
+
+.nav-item {
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+
+.home-title {
+  font-family: 'Poiret One', cursive;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.about-par {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.home-about-par {
+  text-align: center;
+  font-size: 20px;
+  width: 500px;
+}
+
+.image-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.wire-img {
+  width: 400px;
+}
