@@ -1,6 +1,14 @@
 body {
   background-color: #292929;
   color: #ededed;
+  position: relative;
+  height: 100vh;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    height: 100%;
+  }
 }
 
 .whitespace {
@@ -134,4 +142,38 @@ body {
 .dropdown-button:hover .dropdown-content {
   display: block;
   max-height: 1000px;
+}
+
+.footer-whitespace {
+  width: 100%;
+  height: 70px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  background-color: #212121;
+}
+
+@media only screen and (min-device-width: 480px) {
+  .footer {
+    position: absolute;
+  }
+}
+
+.footer-img-link {
+  width: 30px;
+}
+
+.footer-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  height: 30px;
 }
