@@ -152,19 +152,27 @@ body {
 .footer {
   display: flex;
   justify-content: center;
-  bottom: 0;
   width: 100%;
-  margin-top: 40px;
-  padding-top: 90px;
+  padding-top: 50px;
   padding-bottom: 30px;
   background-color: #212121;
 }
 
-@media only screen and (min-device-width: 480px) {
+@media only screen and (min-width: 992px)  {
   .footer {
+    bottom: 0;
     position: absolute;
   }
 }
+
+@media only screen and (min-height: 829px) and (min-width: 481px) {
+  .home-page .footer {
+    bottom: 0;
+    position: absolute;
+  }
+}
+
+
 
 .footer-img-link {
   width: 30px;
